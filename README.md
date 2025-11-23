@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.Rmd. -->
 
 # dspline
 
@@ -12,7 +12,7 @@ status](https://www.r-pkg.org/badges/version/dspline)](https://CRAN.R-project.or
 
 These are *not* B-splines:
 
-<img src="man/figures/README-show-dsplines-1.png" width="100%" />
+<img src="man/figures/README-db-splines-1.png" width="100%" />
 
 These are called *discrete* B-splines. They span a function space called
 **discrete splines**, which are analogous to splines, but defined in
@@ -40,13 +40,13 @@ for a summary of the tools that are available.
 
 ## Installation
 
+To install the released version from CRAN:
+
 ``` r
-# Install released version from CRAN
 install.packages("dspline")
 ```
 
-You can install the development version of dspline from
-[GitHub](https://github.com/) with:
+To install the development version from GitHub:
 
 ``` r
 # install.packages("pak")
